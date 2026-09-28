@@ -1,0 +1,27 @@
+{
+  "name": "arduino-simulator",
+  "version": "1.0.0",
+  "description": "ATmega328P Arduino Simulator using avr8js and arduino-cli",
+  "main": "dist/index.js",
+  "bin": {
+    "arduino-sim": "dist/index.js"
+  },
+  "scripts": {
+    "setup": "node scripts/install-cli.js",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "avr8js": "^0.21.1",
+    "commander": "^15.0.0",
+    "intel-hex": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,18 @@
+# Node dependencies
+node_modules/
+
+# TypeScript build output
+dist/
+
+# Local standalone binaries and Arduino core data
+bin/
+arduino-data/
+arduino-cli.yaml
+
+# Logs
+*.log
+npm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
